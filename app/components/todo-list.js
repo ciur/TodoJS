@@ -6,8 +6,4 @@ export default class TodoListComponent extends Component {
 
     @service('todo-data') todos;
 
-    get all() {
-        return this.todos;
-    }
-
 }
